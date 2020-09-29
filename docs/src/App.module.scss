@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(50, 49, 48);
+  box-sizing: border-box;
+}
+
+.header {
+  height: 50px;
+  line-height: 50px;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  background-color: rgb(39, 38, 48);
+  color: white;
+  user-select: none;
+  overflow: hidden;
+}
+
+.container{
+  display: flex;
+
+  .leftNav {
+    flex: 0 0 300px;
+    width: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-right: 1px solid rgb(237, 235, 233);
+    background: rgb(255, 255, 255);
+  }
+
+  .content {
+    flex: 1 1 auto;
+  }
+}

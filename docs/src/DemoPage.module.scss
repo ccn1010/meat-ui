@@ -1,0 +1,76 @@
+.page {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+.header {
+  background-color: rgb(15, 131, 135);
+  min-height: 145px;
+  padding: 0 50px;
+
+  .title {
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 82px;
+    font-weight: 600;
+    line-height: 94px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: flex;
+    overflow: visible;
+  }
+}
+.section {
+  padding: 50px;
+}
+
+.subHeading {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+
+.overview{
+  max-width: 60em;
+}
+
+.doSection {
+  background-color: rgb(250, 249, 248);
+  display: flex;
+  justify-content: space-between;
+}
+
+.dosDontsSection {
+  flex: 0 0 48%;
+}
+
+.dosDontsLine {
+  height: 8px;
+  margin: 12px 0px 40px 0px;
+  border-radius: 3px;
+  border-width: 0px;
+}
+
+.doLine {
+  background-color: rgb(164, 207, 12);
+}
+
+.dontsLine{
+  background-color: rgb(231, 72, 86);
+}

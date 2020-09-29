@@ -1,0 +1,39 @@
+.root {
+  margin-top: 48px;
+
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+    display: inline;
+    color: inherit;
+  }
+
+  pre {
+    font-size: 14px;
+    font-weight: 400;
+    display: inline;
+    color: inherit;
+  }
+
+  blockquote {
+    color: #666;
+    margin: 0;
+    padding-left: 3em;
+    border-left: 0.5em #eee solid;
+  }
+
+  tr {
+    border-top: 1px solid #c6cbd1;
+    background: #fff;
+  }
+
+  th,
+  td {
+    padding: 6px 13px;
+    border: 1px solid #dfe2e5;
+  }
+
+  table tr:nth-child(2n) {
+    background: #f6f8fa;
+  }
+}

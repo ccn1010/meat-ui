@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "start": "yarn workspace docs start",
+    "build": "lerna run build --stream -- --production --lint"
+  },
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  },
+  "workspaces": {
+    "packages": [
+      "docs",
+      "packages/*"
+    ]
+  }
+}
